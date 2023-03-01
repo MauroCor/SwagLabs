@@ -34,7 +34,6 @@ class TestGetId:
     # region Tests - Status 400
     def test_get_departments_unspecific_extra_parameter(self):
         """
-        TC-
         Verify response with unspecific extra parameter
         """
         response = self.menu_api.get_departments(extra='test')
@@ -44,7 +43,6 @@ class TestGetId:
     # region Tests - Status 401
     def test_get_departments_wrong_token(self):
         """
-        TC-
         Verify response when executing with wrong token
         """
         response = self.menu_api.get_departments('wrong token')

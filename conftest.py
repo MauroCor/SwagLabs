@@ -47,7 +47,7 @@ def driver(request):
 
 def pytest_addoption(parser):
     parser.addoption('--env', action='store', default='tst')
-    parser.addoption('--headless', action='store', default='true')
+    parser.addoption('--headless', action='store', default='false')
 
 
 def pytest_configure(config):
