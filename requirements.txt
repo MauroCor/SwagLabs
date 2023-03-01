@@ -1,0 +1,8 @@
+pytest
+assertpy
+allure-pytest
+requests
+selenium
+webdriver_manager
+pydantic
+pytest-html

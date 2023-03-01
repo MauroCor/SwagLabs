@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="random-word" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="models.general.Response.__getitem__" />
+          <option value="typing.TextIO.__getitem__" />
+          <option value="typing.TextIO.__setitem__" />
+          <option value="list.close" />
+          <option value="sphinx.util.requests.post" />
+          <option value="sphinx.util.requests.patch" />
+          <option value="resources.models.cotizacion.ProductosCotizados.__getitem__" />
+          <option value="bytes.visibility_of_element_located" />
+          <option value="pathlib.Path.__add__" />
+          <option value="httplib" />
+          <option value="selenium.webdriver.Keys" />
+          <option value="RandomWords" />
+          <option value="backend.resources.models.error" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="requirements.InstalledPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
