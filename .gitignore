@@ -50,9 +50,8 @@ Thumbs.db
 /.pytest_cache/
 /.allure-report/
 /.report/
-_screenshots/*
-/backend/test_backend/.allure-report
-/backend/test_backend/.report
-/frontend/tests_frontend/.allure-report
-/frontend/tests_frontend/.report
+/backend/test_backend/*/.allure-report
+/backend/test_backend/*/.report
+/frontend/tests_frontend/*/.allure-report
+/frontend/tests_frontend/*/.report
 /venv
